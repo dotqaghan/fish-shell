@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fish 1.21.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 16:38+0100\n"
-"PO-Revision-Date: 2025-05-07 11:58+0300\n"
+"PO-Revision-Date: 2025-05-07 21:18+0300\n"
 "Last-Translator: dotqaghan <qaghan@proton.me>\n"
 "Language-Team: English <fish-users@lists.sourceforge.net>\n"
 "Language: tr_TR\n"
@@ -404,7 +404,7 @@ msgstr "Kullanıcı tarafından çalıştırılmış komut geçmişi"
 
 #: src/history.rs:1960
 msgid "History session ID '%ls' is not a valid variable name. Falling back to `%ls`."
-msgstr ""
+msgstr "Geçmiş oturum ID'si '%ls' geçerli bir değişken adı değil. '%ls' adına dönülüyor."
 
 #: src/complete.rs:60:static COMPLETE_USER_DESC
 msgid "Home for %ls"
@@ -412,7 +412,7 @@ msgstr "%ls için ev"
 
 #: src/reader.rs:3413
 msgid "I appear to be an orphaned process, so I am quitting politely. My pid is %d."
-msgstr "I appear to be an orphaned process, so I am quitting politely. My pid is %d."
+msgstr "Öksüz bir işlem gibi duruyorum, o halde nazikçe çıkıyorum. pid'im %d."
 
 #: src/parser.rs:1162
 msgid "in command substitution\n"
@@ -432,7 +432,7 @@ msgstr "'%ls' fonksiyonunda"
 
 #: src/builtins/test.rs:807
 msgid "Integer %lld in '%ls' followed by non-digit"
-msgstr ""
+msgstr "'%ls' içindeki tam sayı %lld sayı dışı bir karakterle devam ediyor"
 
 #: src/expand.rs:992
 msgid "Invalid arguments"
@@ -440,15 +440,15 @@ msgstr "Geçersiz argümanlar"
 
 #: src/builtins/printf.rs:680
 msgid "Invalid code points not yet supported by printf"
-msgstr ""
+msgstr "printf tarafından henüz desteklenmeyen geçersiz kod pointleri "
 
 #: src/builtins/printf.rs:470
 msgid "invalid field width: %ls"
-msgstr "invalid field width: %ls"
+msgstr "geçersiz alan genişliği: %ls"
 
 #: src/expand.rs:678
 msgid "Invalid index value"
-msgstr ""
+msgstr "Geçersiz indis değeri"
 
 #: src/tokenizer.rs:163
 msgid "Invalid input/output redirection"
@@ -456,63 +456,63 @@ msgstr "Invalid input/output redirection"
 
 #: src/builtins/test.rs:822
 msgid "Invalid number: %ls"
-msgstr ""
+msgstr "Geçersiz sayı: %ls"
 
 #: src/builtins/printf.rs:502
 msgid "invalid precision: %ls"
-msgstr "invalid precision: %ls"
+msgstr "geçersiz hassasiyet: %ls"
 
 #: src/parse_execution.rs:1488
 msgid "Invalid redirection: %ls"
-msgstr ""
+msgstr "Geçersiz yönlendirme: %ls"
 
 #: src/parse_execution.rs:1513
 msgid "Invalid redirection target: %ls"
-msgstr "Invalid redirection target: %ls"
+msgstr "Geçersiz yönlendirme hedefi: %ls"
 
 #: src/parse_util.rs:1291
 msgid "Invalid token '%ls'"
-msgstr ""
+msgstr "Geçersiz token '%ls'"
 
 #: src/builtins/string/match.rs:90
 msgid "--invert and --groups-only are mutually exclusive"
-msgstr ""
+msgstr "--invert ve --groups-only beraber bulunamazlar"
 
 #: src/tokenizer.rs:169
 msgid "|& is not valid. In fish, use &| to pipe both stdout and stderr."
-msgstr ""
+msgstr "|& geçerli değildir. fish'de hem stdout ve stderr'e pipe oluşturmak için &| kullanın."
 
 #: src/builtins/status.rs:352
 msgid "Job control: %ls\n"
-msgstr "Job control: %ls\n"
+msgstr "İş kontrolü: %ls\n"
 
 #: src/builtins/jobs.rs:67
 msgid "Job\tGroup\t"
-msgstr "Job\tGroup\t"
+msgstr "İş\tGrubu\t"
 
 #: src/builtins/shared.rs:500
 msgid "List or remove functions"
-msgstr "List or remove functions"
+msgstr "Fonksiyonları listele veya kaldır"
 
 #: src/history.rs:1342
 msgid "Locking the history file took too long (%.3f seconds)."
-msgstr ""
+msgstr "Geçmiş dosyasını kitlemek çok uzun sürdü (%.3f saniye)."
 
 #: src/env_universal_common.rs:1023
 msgid "Locking the universal var file took too long (%.3f seconds)."
-msgstr ""
+msgstr "Evrensel değişken dosyasını kitlemek çok uzun sürdü (%.3f saniye)."
 
 #: src/tinyexpr.rs:109
 msgid "Logical operations are not supported, use `test` instead"
-msgstr ""
+msgstr "Mantıksal işlemler desteklenmiyor, bunun yerine `test` kullanın"
 
 #: src/builtins/fg.rs:62
 msgid "%ls: Ambiguous job\n"
-msgstr "%ls: Ambiguous job\n"
+msgstr "%ls: Belirsiz iş\n"
 
 #: src/pager.rs:273
 msgid "%lsand %lu more rows"
-msgstr "%lsand %lu more rows"
+msgstr ""
 
 #: src/builtins/argparse.rs:364
 msgid "%ls: An option spec must have at least a short or a long flag\n"
@@ -520,7 +520,7 @@ msgstr ""
 
 #: src/builtins/read.rs:142
 msgid "%ls: Argument '%ls' is out of range\n"
-msgstr "%ls: Argument “%ls” is out of range\n"
+msgstr "%ls: Argüman \"%ls\" aralığın dışında\n"
 
 #: src/builtins/function.rs:143
 msgid "%ls: calling job for event handler not found"
@@ -528,86 +528,87 @@ msgstr ""
 
 #: src/builtins/abbr.rs:50
 msgid "%ls: Cannot combine options %ls\n"
-msgstr ""
+msgstr "%ls: Seçenekler %ls birleştirilemiyor\n"
 
 #: src/builtins/abbr.rs:482
 msgid "%ls: Cannot specify multiple positions\n"
-msgstr ""
+msgstr "%ls: Birden fazla pozisyon belirtilemez\n"
 
 #: src/builtins/abbr.rs:506
 msgid "%ls: Cannot specify multiple regex patterns\n"
-msgstr ""
+msgstr "%ls: Birden fazla regex kalıbı belirtilemez\n"
 
 #: src/builtins/abbr.rs:516
 msgid "%ls: Cannot specify multiple set-cursor options\n"
-msgstr ""
+msgstr "%ls: Bitden fazla set-cursor seçeneği belirtilemez\n"
 
 #: src/builtins/block.rs:93
 msgid "%ls: Can not specify scope when removing block\n"
-msgstr "%ls: Can not specify scope when removing block\n"
+msgstr "%ls: Blok kaldırırken scope belirtilemez\n"
 
 #: src/builtins/set.rs:926
 msgid "%ls: Cannot use --append or --prepend when assigning to a slice"
-msgstr ""
+msgstr "%ls: Slice'a değer atarken --apend veya --prepend kullanılamaz"
 
 #: src/builtins/history.rs:332
 msgid "%ls: can't merge history in private mode\n"
-msgstr ""
+msgstr "%ls: gizli modda geçmiş birleştirilemez\n"
 
 msgid "%ls: Can't put job %d, '%ls' to foreground because it is not under job control\n"
-msgstr "%ls: Can't put job %d, “%ls” to foreground because it is not under job control\n"
+msgstr "%ls: İş %d, “%ls” ön plana konulamaz çünkü iş kontrolü altında değil.\n"
 
 #: src/builtins/bg.rs:20
 msgid "%ls: Can't put job %s, '%ls' to background because it is not under job control\n"
-msgstr ""
+msgstr "%ls: İş %d, “%ls” arka plana konulamaz çünkü iş kontrolü altında değil.\n"
 
 #: src/builtins/shared.rs:924
+#, fuzzy
 msgid "%ls: Command not valid at an interactive prompt\n"
-msgstr ""
+msgstr "%ls: Komut interaktif bilgi isteminde geçerli değil\n"
 
 #: src/builtins/wait.rs:193
 msgid "%ls: Could not find a job with process id '%d'\n"
-msgstr ""
+msgstr "%ls: İşlem id'si '%d' olan bir iş bulunamadı\n"
 
 #: src/builtins/wait.rs:202
 msgid "%ls: Could not find child processes with the name '%ls'\n"
-msgstr ""
+msgstr "%ls: '%ls' adında alt işlem bulunamadı\n"
 
 #: src/builtins/cd.rs:45
 msgid "%ls: Could not find home directory\n"
-msgstr "%ls: Could not find home directory\n"
+msgstr "%ls: Ev dizini bulunamadı\n"
 
 #: src/builtins/bg.rs:111
 msgid "%ls: Could not find job '%d'\n"
-msgstr ""
+msgstr "%ls: İş '%d' bulunamadı\n"
 
 #: src/builtins/type.rs:211
 msgid "%ls: Could not find '%ls'\n"
-msgstr ""
+msgstr "%ls: '%ls' bulunamadı\n"
 
 #: src/builtins/status.rs:538
 msgid "%ls: Could not get executable path: '%s'\n"
-msgstr ""
+msgstr "%ls: Çalıştırılabilir yolu alınamadı: '%s'\n"
 
 #: src/builtins/set.rs:911
 msgid "%ls: Did you mean `set %ls %ls`?"
-msgstr ""
+msgstr "%ls: `set %ls %ls` mi demek istediniz?"
 
 #: src/builtins/cd.rs:54
 msgid "%ls: Empty directory '%ls' does not exist\n"
-msgstr ""
+msgstr "%ls: Boş dizin '%ls' yok\n"
 
 #: src/builtins/random.rs:140
 msgid "%ls: END must be greater than START\n"
-msgstr ""
+msgstr "%ls: END START'dan büyük olmalıdır\n"
 
 #: src/builtins/source.rs:61
 msgid "%ls: Error encountered while sourcing file '%ls':\n"
-msgstr "%ls: Error encountered while sourcing file “%ls”:\n"
+msgstr "%ls: Dosya “%ls” kaynak alınırken hatayla karşılaşıldı:\n"
 
 #: src/builtins/source.rs:119
 msgid "%ls: Error while reading file '%ls'\n"
-msgstr "%ls: Error while reading file “%ls”\n"
+msgstr "%ls: Dosya “%ls” okunurken hata\n"
 
 #: src/builtins/argparse.rs:182
 msgid "%ls: exclusive flag '%ls' is not valid\n"
@@ -630,28 +631,29 @@ msgid "%ls: Expected exactly two names (current function name, and new function 
 msgstr "%ls: Expected exactly two names (current function name, and new function name)\n"
 
 #: src/builtins/functions.rs:262
+#, fuzzy
 msgid "%ls: Expected generic | variable | signal | exit | job-id for --handlers-type\n"
-msgstr ""
+msgstr "%ls: --handlers-type için generic | variable | signal | exit | job-id beklendi\n"
 
 #: src/builtins/functions.rs:333
 msgid "%ls: Function '%ls' already exists. Cannot create copy '%ls'\n"
-msgstr "%ls: Function “%ls” already exists. Cannot create copy “%ls”\n"
+msgstr "%ls: Fonksiyon “%ls” zaten var. “%ls” kopyası oluşturulamıyor\n"
 
 #: src/builtins/functions.rs:172
 msgid "%ls: Function '%ls' does not exist\n"
-msgstr "%ls: Function “%ls” does not exist\n"
+msgstr "%ls: Fonksiyon “%ls” yok\n"
 
 #: src/builtins/function.rs:227
 msgid "%ls: function name required"
-msgstr ""
+msgstr "%ls: fonksiyon adı gereklidir"
 
 #: src/builtins/abbr.rs:79
 msgid "%ls: --function option requires --add\n"
-msgstr ""
+msgstr "%ls: --function seçeneği -add gerektirir\n"
 
 #: src/builtins/functions.rs:323
 msgid "%ls: Illegal function name '%ls'\n"
-msgstr "%ls: Illegal function name “%ls”\n"
+msgstr "%ls: Yasaklı fonksiyon adı “%ls”\n"
 
 #: src/builtins/argparse.rs:281
 msgid "%ls: Implicit int flag '%lc' already defined\n"
@@ -663,63 +665,64 @@ msgstr ""
 
 #: src/builtins/printf.rs:529
 msgid "%.*ls: invalid conversion specification"
-msgstr "%.*ls: invalid conversion specification"
+msgstr "%.*ls: geçersiz dönüşüm spesifikasyonu"
 
 #: src/builtins/string/repeat.rs:25
 msgid "%ls: Invalid count value '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz sayım değeri '%ls'\n"
 
 #: src/builtins/string/sub.rs:40
 msgid "%ls: Invalid end value '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz bitiş değeri '%ls'\n"
 
 #: src/builtins/string.rs:175
 msgid "%ls: Invalid escape sequence in pattern \"%ls\"\n"
-msgstr ""
+msgstr "%ls: \"%ls\" kalıbında geçersiz kaçış dizisi\n"
 
 #: src/builtins/string/escape.rs:24
 msgid "%ls: Invalid escape style '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz kaçış biçimi '%ls'\n"
 
 #: src/builtins/string/split.rs:133
 msgid "%ls: Invalid fields value '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz alan değeri '%ls'\n"
 
 #: src/builtins/abbr.rs:357
 msgid "%ls: Invalid function name: %ls\n"
-msgstr ""
+msgstr "%ls: Geçersiz fonksiyon adı %ls\n"
 
 #: src/builtins/set.rs:368
 msgid "%ls: Invalid index starting at '%ls'\n"
-msgstr "%ls: Invalid index starting at “%ls”\n"
+msgstr "%ls: \"%ls” konumunda başlayan geçersiz indis\n"
 
 #: src/builtins/status.rs:254
 msgid "%ls: Invalid job control mode '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz iş kontrolü modu '%ls'\n"
 
 #: src/builtins/string/sub.rs:27
 msgid "%ls: Invalid length value '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz uzunluk değeri '%ls'\n"
 
 #: src/builtins/status.rs:218
+#, fuzzy
 msgid "%ls: Invalid level value '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz level değeri '%ls'\n"
 
 #: src/builtins/ulimit.rs:330
 msgid "%ls: Invalid limit '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz sınır '%ls'\n"
 
 #: src/builtins/argparse.rs:517
 msgid "%ls: Invalid --max-args value '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz --max-args değeri '%ls'\n"
 
 #: src/builtins/string/shorten.rs:53
 msgid "%ls: Invalid max value '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz maksimum değer '%ls'\n"
 
 #: src/builtins/argparse.rs:503
 msgid "%ls: Invalid --min-args value '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz --min-args değeri '%ls'\n"
 
 #: src/builtins/string/pad.rs:44
 msgid "%ls: Invalid padding character of width zero '%ls'\n"
@@ -727,15 +730,15 @@ msgstr ""
 
 #: src/builtins/path.rs:278
 msgid "%ls: Invalid permission '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçerseiz izin '%ls'\n"
 
 #: src/builtins/abbr.rs:493
 msgid "%ls: Invalid position '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz konum '%ls'\n"
 
 #: src/builtins/string/split.rs:130
 msgid "%ls: Invalid range value for field '%ls'\n"
-msgstr ""
+msgstr "%ls: '%ls' alanı için geçersiz aralık değeri\n"
 
 #: src/builtins/path.rs:680
 msgid "%ls: Invalid sort key '%ls'\n"
@@ -743,11 +746,11 @@ msgstr ""
 
 #: src/builtins/string/sub.rs:33
 msgid "%ls: Invalid start value '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz başlangıç değeri '%ls'\n"
 
 #: src/builtins/bind.rs:559
 msgid "%ls: Invalid state\n"
-msgstr "%ls: Invalid state\n"
+msgstr "%ls: Geçersiz durum\n"
 
 #: src/builtins/string/unescape.rs:26
 msgid "%ls: Invalid style value '%ls'\n"
@@ -755,7 +758,7 @@ msgstr ""
 
 #: src/builtins/complete.rs:322
 msgid "%ls: Invalid token '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz token '%ls'\n"
 
 #: src/builtins/path.rs:266
 msgid "%ls: Invalid type '%ls'\n"
@@ -767,15 +770,15 @@ msgstr ""
 
 #: src/builtins/type.rs:166
 msgid "%ls is a builtin\n"
-msgstr ""
+msgstr "%ls bir dahili\n"
 
 #: src/builtins/type.rs:123
 msgid "%ls is a function"
-msgstr ""
+msgstr "%ls bir fonksiyon"
 
 #: src/builtins/type.rs:194
 msgid "%ls is %ls\n"
-msgstr ""
+msgstr "%ls bir %ls\n"
 
 #: src/builtins/disown.rs:31
 msgid "%ls: job %d ('%ls') was stopped and has been signalled to continue.\n"
@@ -783,11 +786,11 @@ msgstr ""
 
 #: src/builtins/contains.rs:76
 msgid "%ls: Key not specified\n"
-msgstr "%ls: Key not specified\n"
+msgstr ""
 
 #: src/builtins/bind.rs:209
 msgid "%ls: Key with name '%ls' does not have any mapping\n"
-msgstr "%ls: Key with name “%ls” does not have any mapping\n"
+msgstr ""
 
 #: src/parser.rs:657
 msgid "%ls (line %d): "
@@ -799,23 +802,23 @@ msgstr "%ls (line %lu): "
 
 #: src/builtins/argparse.rs:400
 msgid "%ls: Long flag '%ls' already defined\n"
-msgstr ""
+msgstr "%ls: Uzun flag '%ls' zaten tanımlı\n"
 
 #: src/builtins/complete.rs:354
 msgid "%ls: -l requires a non-empty string\n"
-msgstr ""
+msgstr "%ls: -l boş olmayan bir string gerektirir\n"
 
 #: src/builtins/abbr.rs:242
 msgid "%ls %ls: Abbreviation %ls already exists, cannot rename %ls\n"
-msgstr ""
+msgstr "%ls %ls: Kısaltma %ls zaten var, %ls yeniden adlandırılamıyor\n"
 
 #: src/builtins/abbr.rs:223
 msgid "%ls %ls: Abbreviation '%ls' cannot have spaces in the word\n"
-msgstr ""
+msgstr "%ls %ls: Kısaltma '%ls' sözcükte boşluklar içeremez\n"
 
 #: src/builtins/read.rs:527
 msgid "%ls: %ls: cannot overwrite read-only variable"
-msgstr ""
+msgstr "%ls: %ls: salt okunur değişken üzerine yazılamaz"
 
 #: src/builtins/function.rs:241
 msgid "%ls: %ls: cannot use reserved keyword as function name"
@@ -823,103 +826,103 @@ msgstr ""
 
 #: src/builtins/complete.rs:473
 msgid "%ls: %ls: contains a syntax error\n"
-msgstr ""
+msgstr "%ls: %ls: syntax hatası içeriyor\n"
 
 #: src/builtins/math.rs:55
 msgid "%ls: %ls: invalid base value\n"
-msgstr ""
+msgstr "%ls: %ls: geçersiz taban değeri\n"
 
 #: src/builtins/function.rs:233
 msgid "%ls: %ls: invalid function name"
-msgstr ""
+msgstr "%ls: %ls: geçersiz fonksiyon adı"
 
 #: src/builtins/shared.rs:54:pub const BUILTIN_ERR_NOT_NUMBER
 msgid "%ls: %ls: invalid integer\n"
-msgstr ""
+msgstr "%ls: %ls: geçersiz tam sayı\n"
 
 #: src/builtins/function.rs:156
 msgid "%ls: %ls: invalid process id"
-msgstr ""
+msgstr "%ls: %ls: geçersiz işlem id'si"
 
 #: src/builtins/cd.rs:146
 msgid "%ls: '%ls' is a broken symbolic link to '%ls'\n"
-msgstr ""
+msgstr "%ls: '%ls' '%ls' konumuna giden bozuk bir sembolik bağ\n"
 
 #: src/builtins/cd.rs:140
 msgid "%ls: '%ls' is not a directory\n"
-msgstr "%ls: “%ls” is not a directory\n"
+msgstr "%ls: “%ls” bir dizin değil\n"
 
 #: src/builtins/source.rs:86
 msgid "%ls: '%ls' is not a file\n"
-msgstr "%ls: “%ls” is not a file\n"
+msgstr "%ls: “%ls” bir dosya değil\n"
 
 #: src/builtins/fg.rs:65
 msgid "%ls: '%ls' is not a job\n"
-msgstr "%ls: “%ls” is not a job\n"
+msgstr "%ls: “%ls” bir iş değil\n"
 
 #: src/builtins/jobs.rs:200
 msgid "%ls: '%ls' is not a valid job id\n"
-msgstr ""
+msgstr "%ls: '%ls' geçerli bir iş id'si değil\n"
 
 #: src/builtins/bg.rs:89
 msgid "%ls: '%ls' is not a valid job specifier\n"
-msgstr ""
+msgstr "%ls: '%ls' geçerli bir iş belirteci değil\n"
 
 #: src/builtins/wait.rs:185
 msgid "%ls: '%ls' is not a valid process id\n"
-msgstr ""
+msgstr "%ls: '%ls' geçerli bir işlem id'si değil\n"
 
 #: src/builtins/argparse.rs:142
 msgid "%ls: %ls %ls: options cannot be used together\n"
-msgstr ""
+msgstr "%ls: %ls %ls: seçenekler beraber kullanılamazlar\n"
 
 #: src/builtins/abbr.rs:327
 msgid "%ls: %*ls\n"
-msgstr ""
+msgstr "%ls: %*ls\r\n"
 
 #: src/builtins/abbr.rs:324
 msgid "%ls: %ls\n"
-msgstr ""
+msgstr "%ls: %ls\n"
 
 #: src/builtins/abbr.rs:214
 msgid "%ls %ls: Name cannot be empty\n"
-msgstr ""
+msgstr "%ls %ls: Ad boş olamaz\n"
 
 #: src/builtins/abbr.rs:233
 msgid "%ls %ls: No abbreviation named %ls\n"
-msgstr ""
+msgstr "%ls %ls: %ls adında bir kısaltma yok\n"
 
 #: src/builtins/abbr.rs:278
 msgid "%ls %ls: Requires at least two arguments\n"
-msgstr ""
+msgstr "%ls %ls: En az iki argüman gerektiriyor\n"
 
 #: src/builtins/abbr.rs:204
 msgid "%ls %ls: Requires exactly two arguments\n"
-msgstr ""
+msgstr "%ls %ls: Tam iki argüman gerektiriyor\n"
 
 #: src/builtins/history.rs:113
 msgid "%ls: %ls: subcommand takes no options\n"
-msgstr ""
+msgstr "%ls: %ls: alt komut herhangi bir seçenek almıyor\n"
 
 #: src/builtins/abbr.rs:180
 msgid "%ls %ls: Unexpected argument -- '%ls'\n"
-msgstr ""
+msgstr "%ls %ls: Beklenmedik argüman -- '%ls'\n"
 
 #: src/builtins/function.rs:96
 msgid "%ls: %ls: unexpected positional argument"
-msgstr ""
+msgstr "%ls: %ls: beklenmedik konumsal argüman"
 
 #: src/builtins/argparse.rs:446
 msgid "%ls: Missing -- separator\n"
-msgstr ""
+msgstr "%ls: -- ayracı eksik\n"
 
 #: src/builtins/type.rs:148
 msgid " (%ls)\n"
-msgstr ""
+msgstr "(%ls)\n"
 
 #: src/builtins/ulimit.rs:309
 msgid "%ls: New limit cannot be an empty string\n"
-msgstr ""
+msgstr "%ls: Yeni limit boş string olamaz\n"
 
 #: src/builtins/bind.rs:359
 msgid "%ls: No binding found for key '%ls'\n"
@@ -943,15 +946,15 @@ msgstr "%ls: No suitable job: %d\n"
 
 #: src/builtins/jobs.rs:240
 msgid "%ls: No suitable job: %ls\n"
-msgstr ""
+msgstr "%ls: Uygun iş yok: %ls\n"
 
 #: src/builtins/random.rs:50
 msgid "%ls: nothing to choose from\n"
-msgstr ""
+msgstr "%ls: seçecek hiçbir şey yok\n"
 
 #: src/builtins/shared.rs:880
 msgid "%ls: Not inside of loop\n"
-msgstr "%ls: Not inside of loop\n"
+msgstr "%ls: Döngü içinde değil\n"
 
 #: src/builtins/read.rs:422
 msgid "%ls: Options %ls and %ls cannot be used together\n"
@@ -959,7 +962,7 @@ msgstr ""
 
 #: src/builtins/complete.rs:364
 msgid "%ls: -o requires a non-empty string\n"
-msgstr ""
+msgstr "%ls: -o boş olmayan bir string gerektirir\n"
 
 #: src/builtins/string/pad.rs:36
 msgid "%ls: Padding should be a character '%ls'\n"
@@ -967,7 +970,7 @@ msgstr ""
 
 #: src/builtins/cd.rs:165
 msgid "%ls: Permission denied: '%ls'\n"
-msgstr "%ls: Permission denied: “%ls”\n"
+msgstr "%ls: İzin reddedildi: “%ls”\n"
 
 #: src/builtins/abbr.rs:66
 msgid "%ls: --position option requires --add\n"
@@ -979,11 +982,11 @@ msgstr ""
 
 #: src/builtins/pwd.rs:52
 msgid "%ls: realpath failed: %s\n"
-msgstr ""
+msgstr "%ls: realpath başarısız oldu: %s\r\n"
 
 #: src/builtins/abbr.rs:74
 msgid "%ls: --regex option requires --add\n"
-msgstr ""
+msgstr "%ls: --regex seçeneği --add gerektirir\n"
 
 #: src/builtins/abbr.rs:317
 msgid "%ls: Regular expression compile error: %ls\n"
