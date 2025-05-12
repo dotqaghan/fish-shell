@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: fish 1.21.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 16:38+0100\n"
-"PO-Revision-Date: 2025-05-07 21:18+0300\n"
+"PO-Revision-Date: 2025-05-12 19:19+0300\n"
 "Last-Translator: dotqaghan <qaghan@proton.me>\n"
-"Language-Team: English <fish-users@lists.sourceforge.net>\n"
+"Language-Team: \n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -440,7 +440,7 @@ msgstr "Geçersiz argümanlar"
 
 #: src/builtins/printf.rs:680
 msgid "Invalid code points not yet supported by printf"
-msgstr "printf tarafından henüz desteklenmeyen geçersiz kod pointleri "
+msgstr "printf tarafından henüz desteklenmeyen geçersiz kod pointleri"
 
 #: src/builtins/printf.rs:470
 msgid "invalid field width: %ls"
@@ -620,15 +620,15 @@ msgstr ""
 
 #: src/builtins/printf.rs:223
 msgid "%ls: expected a numeric value"
-msgstr "%ls: expected a numeric value"
+msgstr "%ls: sayısal bir değer beklendi"
 
 #: src/builtins/functions.rs:162
 msgid "%ls: Expected exactly one function name\n"
-msgstr "%ls: Expected exactly one function name\n"
+msgstr "%ls: Tek bir fonksiyon adı beklendi\n"
 
 #: src/builtins/functions.rs:302
 msgid "%ls: Expected exactly two names (current function name, and new function name)\n"
-msgstr "%ls: Expected exactly two names (current function name, and new function name)\n"
+msgstr "%ls: Tam iki ad beklendi (mevcut fonksiyon adı ve yeni fonksiyon adı)\n"
 
 #: src/builtins/functions.rs:262
 #, fuzzy
@@ -754,7 +754,7 @@ msgstr "%ls: Geçersiz durum\n"
 
 #: src/builtins/string/unescape.rs:26
 msgid "%ls: Invalid style value '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçerseiz style değeri '%ls'\n"
 
 #: src/builtins/complete.rs:322
 msgid "%ls: Invalid token '%ls'\n"
@@ -762,11 +762,11 @@ msgstr "%ls: Geçersiz token '%ls'\n"
 
 #: src/builtins/path.rs:266
 msgid "%ls: Invalid type '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz tür '%ls'\n"
 
 #: src/builtins/string/pad.rs:56
 msgid "%ls: Invalid width value '%ls'\n"
-msgstr ""
+msgstr "%ls: Geçersiz genişlik değeri '%s'\n"
 
 #: src/builtins/type.rs:166
 msgid "%ls is a builtin\n"
@@ -794,11 +794,11 @@ msgstr ""
 
 #: src/parser.rs:657
 msgid "%ls (line %d): "
-msgstr "%ls (line %d): "
+msgstr "%ls (satır %d): "
 
 #: src/parser.rs:985
 msgid "%ls (line %lu): "
-msgstr "%ls (line %lu): "
+msgstr "%ls (satır %lu): "
 
 #: src/builtins/argparse.rs:400
 msgid "%ls: Long flag '%ls' already defined\n"
@@ -822,7 +822,7 @@ msgstr "%ls: %ls: salt okunur değişken üzerine yazılamaz"
 
 #: src/builtins/function.rs:241
 msgid "%ls: %ls: cannot use reserved keyword as function name"
-msgstr ""
+msgstr "%ls: %ls: fonksiyon adı olarak rezerve edilmiş anahtar sözcük kullanılamaz"
 
 #: src/builtins/complete.rs:473
 msgid "%ls: %ls: contains a syntax error\n"
@@ -918,15 +918,16 @@ msgstr "%ls: -- ayracı eksik\n"
 
 #: src/builtins/type.rs:148
 msgid " (%ls)\n"
-msgstr "(%ls)\n"
+msgstr " (%ls)\n"
 
 #: src/builtins/ulimit.rs:309
 msgid "%ls: New limit cannot be an empty string\n"
 msgstr "%ls: Yeni limit boş string olamaz\n"
 
 #: src/builtins/bind.rs:359
+#, fuzzy
 msgid "%ls: No binding found for key '%ls'\n"
-msgstr "%ls: No binding found for key “%ls”\n"
+msgstr "%ls: Anahtar “%ls” için atama bulunamadı\n"
 
 #: src/builtins/bind.rs:365
 msgid "%ls: No binding found for sequence '%ls'\n"
@@ -958,7 +959,7 @@ msgstr "%ls: Döngü içinde değil\n"
 
 #: src/builtins/read.rs:422
 msgid "%ls: Options %ls and %ls cannot be used together\n"
-msgstr ""
+msgstr "%ls: Seçenekler %ls ve %ls beraber kullanılamaz\n"
 
 #: src/builtins/complete.rs:364
 msgid "%ls: -o requires a non-empty string\n"
@@ -974,11 +975,11 @@ msgstr "%ls: İzin reddedildi: “%ls”\n"
 
 #: src/builtins/abbr.rs:66
 msgid "%ls: --position option requires --add\n"
-msgstr ""
+msgstr "%ls: --position seçeneği -add gerektirir\n"
 
 #: src/builtins/random.rs:148
 msgid "%ls: range contains only one possible value\n"
-msgstr ""
+msgstr "%ls: aralık tek bir mümkün değere sahip\n"
 
 #: src/builtins/pwd.rs:52
 msgid "%ls: realpath failed: %s\n"
@@ -990,51 +991,52 @@ msgstr "%ls: --regex seçeneği --add gerektirir\n"
 
 #: src/builtins/abbr.rs:317
 msgid "%ls: Regular expression compile error: %ls\n"
-msgstr ""
+msgstr "%ls: Regular expression derleme hatası: %ls\n"
 
 #: src/builtins/string/replace.rs:87
 msgid "%ls: Regular expression substitute error: %ls\n"
-msgstr ""
+msgstr "%ls: Regular expression yer değiştirme hatası: %ls\n"
 
 #: src/builtins/ulimit.rs:275
 msgid "%ls: Resource limit not available on this operating system\n"
-msgstr ""
+msgstr "%ls: Kaynak sınırı bu işletim sisteminde mevcut değil\n"
 
 #: src/builtins/abbr.rs:98
 msgid "%ls: --set-cursor argument cannot be empty\n"
-msgstr ""
+msgstr "%ls: --set-cursor argümanı boş olamaz\n"
 
 #: src/builtins/abbr.rs:86
 msgid "%ls: --set-cursor option requires --add\n"
-msgstr ""
+msgstr "%ls: --set-cursor seçeneği -add gerektirir\n"
 
 #: src/builtins/set.rs:714
+#, fuzzy
 msgid "%ls: `set --show` does not allow slices with the var names\n"
-msgstr ""
+msgstr "%ls: `set --show` değişken adlarında slice'lara izin vermiyor\n"
 
 #: src/builtins/argparse.rs:249
 msgid "%ls: Short flag '%lc' already defined\n"
-msgstr ""
+msgstr "%ls: Kısa flag '%lc' zaten tanımlı\n"
 
 #: src/builtins/argparse.rs:373
 msgid "%ls: Short flag '%lc' invalid, must be alphanum or '#'\n"
-msgstr ""
+msgstr "%ls: Kısa flag '%lc' geçersiz, alfanümerik veya '#' olmalı\n"
 
 #: src/builtins/complete.rs:344
 msgid "%ls: -s requires a non-empty string\n"
-msgstr ""
+msgstr "%ls: -s boş olmayan bir string gerektirir\n"
 
 #: src/builtins/complete.rs:374
 msgid "%ls: -S requires a non-empty string\n"
-msgstr ""
+msgstr "%ls: -S boş olmayan bir string gerektirir\n"
 
 #: src/builtins/source.rs:43
 msgid "%ls: stdin is closed\n"
-msgstr ""
+msgstr "%ls: stdin kapalı\n"
 
 #: src/builtins/random.rs:118
 msgid "%ls: STEP must be a positive integer\n"
-msgstr ""
+msgstr "%ls: STEP bir pozitif tam sayı olmalıdır\n"
 
 #: src/builtins/cd.rs:69
 msgid "%ls: The directory '%ls' does not exist\n"
@@ -1042,19 +1044,19 @@ msgstr "%ls: The directory “%ls” does not exist\n"
 
 #: src/builtins/jobs.rs:260
 msgid "%ls: There are no jobs\n"
-msgstr "%ls: There are no jobs\n"
+msgstr "%ls: Herhangi bir iş yok\n"
 
 #: src/builtins/fg.rs:41
 msgid "%ls: There are no suitable jobs\n"
-msgstr "%ls: There are no suitable jobs\n"
+msgstr "%ls: Herhangi bir uygun iş yok\n"
 
 #: src/builtins/set.rs:332
 msgid "%ls: The variable '%ls' does not exist\n"
-msgstr ""
+msgstr "%ls: Değişken '%ls' yok\n"
 
 #: src/builtins/shared.rs:51:pub const BUILTIN_ERR_TOO_MANY_ARGUMENTS
 msgid "%ls: too many arguments\n"
-msgstr ""
+msgstr "%ls: çok fazla argüman\n"
 
 #: src/builtins/cd.rs:153
 msgid "%ls: Too many levels of symbolic links: '%ls'\n"
@@ -1070,15 +1072,15 @@ msgstr "%ls: Tried to change the read-only variable “%ls”\n"
 
 #: src/builtins/set.rs:325
 msgid "%ls: Tried to modify the special variable '%ls' to an invalid value\n"
-msgstr ""
+msgstr "%ls: Özel değişken '%ls' geçersiz bir değere düzenlenmeye çalışıldı\n"
 
 #: src/builtins/set.rs:318
 msgid "%ls: Tried to modify the special variable '%ls' with the wrong scope\n"
-msgstr ""
+msgstr "%ls: Özel değişken '%ls' yanlış scope ile düzenlenmeye çalışıldı\n"
 
 #: src/builtins/set_color.rs:178
 msgid "%ls: Unknown color '%ls'\n"
-msgstr "%ls: Unknown color “%ls”\n"
+msgstr "%ls: Bilinmeyen renk “%ls”\n"
 
 #: src/builtins/cd.rs:173
 msgid "%ls: Unknown error trying to locate directory '%ls'\n"
@@ -1086,11 +1088,11 @@ msgstr "%ls: Unknown error trying to locate directory “%ls”\n"
 
 #: src/builtins/commandline.rs:323
 msgid "%ls: Unknown input function '%ls'"
-msgstr ""
+msgstr "%ls: Bilinmeyen giriş fonksiyonu '%ls'"
 
 #: src/builtins/function.rs:109
 msgid "%ls: Unknown signal '%ls'"
-msgstr ""
+msgstr "%ls: Bilinmeyen sinyal '%ls'"
 
 msgid "%ls: usage of -i for --silent is deprecated. Please use -s or --silent instead.\n"
 msgstr ""
@@ -1101,39 +1103,39 @@ msgstr ""
 
 #: src/bin/fish_key_reader.rs:332
 msgid "%ls, version %s\n"
-msgstr "%ls, version %s\n"
+msgstr "%ls, sürüm %s\n"
 
 #: src/builtins/abbr.rs:539
 msgid "%ls: Warning: Option '%ls' was removed and is now ignored"
-msgstr ""
+msgstr "%ls: Uyarı: Seçenek '%ls' kaldırıldı veya artık görmezden geliniyor"
 
 #: src/builtins/ulimit.rs:46
 msgid "%lu\n"
-msgstr ""
+msgstr "%lu\n"
 
 #: src/builtins/shared.rs:470
 msgid "Manage abbreviations"
-msgstr ""
+msgstr "Kısaltmaları yönetin"
 
 #: src/builtins/shared.rs:518
 msgid "Manipulate strings"
-msgstr ""
+msgstr "String'leri yönetin"
 
 #: src/builtins/shared.rs:521
 msgid "Measure how long a command or block takes"
-msgstr ""
+msgstr "Bir komutun veya komut bloğunun ne kadar sürdüğünü ölçün"
 
 #: src/expand.rs:858
 msgid "Mismatched braces"
-msgstr ""
+msgstr "Uyumsuz köşeli parantezler"
 
 #: src/expand.rs:944
 msgid "Mismatched parenthesis"
-msgstr ""
+msgstr "Uyumsuz parantezler"
 
 #: src/tinyexpr.rs:102
 msgid "Missing closing parenthesis"
-msgstr ""
+msgstr "Kapatan parantez eksik"
 
 #: src/ast.rs:2849
 msgid "Missing end to balance this %ls"
@@ -1141,19 +1143,20 @@ msgstr ""
 
 #: src/builtins/printf.rs:631
 msgid "missing hexadecimal number in escape"
-msgstr "missing hexadecimal number in escape"
+msgstr "kaçış dizisinde on altılık sayı eksik"
 
 #: src/builtins/printf.rs:660
 msgid "Missing hexadecimal number in Unicode escape"
-msgstr "Missing hexadecimal number in Unicode escape"
+msgstr "Unicode kaçış dizisinde on altılık sayı eksik"
 
 #: src/tinyexpr.rs:103
 msgid "Missing opening parenthesis"
-msgstr ""
+msgstr "Açan parantez eksik"
 
 #: src/tinyexpr.rs:106
+#, fuzzy
 msgid "Missing operator"
-msgstr ""
+msgstr "Operatör eksik"
 
 #: src/builtins/string.rs:168
 msgid "Modification of read-only variable \"%ls\" is not allowed\n"
@@ -1161,23 +1164,23 @@ msgstr ""
 
 #: src/builtins/shared.rs:505
 msgid "Negate exit status of job"
-msgstr "Negate exit status of job"
+msgstr "İşin çıkış durumunu tersine çevir"
 
 #: src/builtins/status.rs:347
 msgid "Never"
-msgstr "Never"
+msgstr "Asla"
 
 #: src/pager.rs:285
 msgid "(no matches)"
-msgstr "(no matches)"
+msgstr "(eşleşme yok)"
 
 #: src/builtins/status.rs:449
 msgid "Not a function"
-msgstr ""
+msgstr "Bir fonksiyon değil"
 
 #: src/builtins/test.rs:816
 msgid "Not a number"
-msgstr ""
+msgstr "Bir sayı değil"
 
 #: src/reader.rs:3402
 msgid "No TTY for interactive shell (tcgetpgrp failed)"
@@ -1188,86 +1191,88 @@ msgid ""
 "\n"
 "   PID  Command\n"
 msgstr ""
+"\n"
+"   PID  Komutu\n"
 
 #: src/builtins/test.rs:818
 msgid "Number is infinite"
-msgstr ""
+msgstr "Sayı sonsuz"
 
 #: src/tinyexpr.rs:112
 msgid "Number is too large"
-msgstr ""
+msgstr "Sayı fazla büyük"
 
 #: src/builtins/printf.rs:212
 msgid "Number out of range"
-msgstr ""
+msgstr "Sayı aralığın dışında"
 
 #: src/builtins/printf.rs:215
 msgid "Number was empty"
-msgstr ""
+msgstr "Sayı boştu"
 
 #: src/builtins/status.rs:346
 msgid "Only on interactive jobs"
-msgstr "Only on interactive jobs"
+msgstr "Yalnız interaktif işlerde"
 
 #: src/bin/fish_indent.rs:905
 msgid "Opening \"%s\" failed: %s\n"
-msgstr ""
+msgstr "\"%s\" açılamadı: %s\n"
 
 #: src/builtins/shared.rs:472
 msgid "Parse options in fish script"
-msgstr ""
+msgstr "Seçenekleri fish betiğinde çözümle"
 
 #: src/builtins/shared.rs:526
 msgid "Perform a command multiple times"
-msgstr "Perform a command multiple times"
+msgstr "Bir komutu çok kez çalıştır"
 
 #: src/builtins/shared.rs:498
 msgid "Perform a set of commands multiple times"
-msgstr "Perform a set of commands multiple times"
+msgstr "Bir komut grubunu çok kez çalıştır"
 
 #: src/path.rs:165
 msgid "Please set $%ls to a directory where you have write access."
-msgstr ""
+msgstr "Lütfen $%ls değişkenini yazma erişiminiz olan bir dizine ayarlayın."
 
 #: src/path.rs:143
 msgid "Please set the %ls or HOME environment variable before starting fish."
-msgstr ""
+msgstr "Lütfen fish'i başlatmadan önce %ls veya HOME ortam değişkenlerini ayarlayın."
 
 #: src/builtins/shared.rs:489
 msgid "Print arguments"
-msgstr "Print arguments"
+msgstr "Argümanları yazdır"
 
 #: src/builtins/shared.rs:503
 msgid "Print currently running jobs"
-msgstr "Print currently running jobs"
+msgstr "Çalışan işleri yazdır"
 
 #: src/builtins/shared.rs:508
 msgid "Prints formatted text"
-msgstr "Prints formatted text"
+msgstr "Biçimlendirilmiş metin yazdırır"
 
 #: src/builtins/shared.rs:509 share/completions/scons.fish:32
 msgid "Print the working directory"
-msgstr "Print the working directory"
+msgstr "Çalışma dizinini yazdır"
 
 #: src/builtins/jobs.rs:107
 msgid "Process\n"
-msgstr "Process\n"
+msgstr "İşlem\n"
 
 #: src/builtins/builtin.rs:49
 msgid "--query and --names are mutually exclusive"
-msgstr ""
+msgstr "--query ve --names beraber bulunamazlar"
 
 #: src/builtins/shared.rs:511
 msgid "Read a line of input into variables"
-msgstr "Read a line of input into variables"
+msgstr "Girdiyi oku ve değişkenlere ata"
 
 #: src/builtins/set.rs:643
 msgid " (read-only)\n"
-msgstr ""
+msgstr " (salt-okunur)\n"
 
 #: src/builtins/shared.rs:488
 msgid "Remove job from job list"
-msgstr ""
+msgstr "İş listesinden işi kaldır"
 
 #: src/parse_execution.rs:1532
 msgid "Requested redirection to '%ls', which is not a valid file descriptor"
@@ -1275,7 +1280,7 @@ msgstr "Requested redirection to “%ls”, which is not a valid file descriptor
 
 #: src/builtins/test.rs:820
 msgid "Result too large: %ls"
-msgstr ""
+msgstr "Sonuç çok büyük: %ls"
 
 #: src/builtins/shared.rs:496
 msgid "Return an unsuccessful result"
@@ -1295,15 +1300,15 @@ msgstr "rows %lu to %lu of %lu"
 
 #: src/builtins/shared.rs:479
 msgid "Run a builtin specifically"
-msgstr ""
+msgstr "Spesifik olarak bir  dahiliyi çalıştır"
 
 #: src/builtins/shared.rs:482
 msgid "Run a command specifically"
-msgstr ""
+msgstr "Spesifik olarak bir komutu çalıştır"
 
 #: src/builtins/shared.rs:471
 msgid "Run command if last command succeeded"
-msgstr ""
+msgstr "Önceki komutun başarılı olması durumunda komut çalıştır"
 
 #: src/builtins/shared.rs:494
 msgid "Run command in current process"
@@ -1315,7 +1320,7 @@ msgstr "running"
 
 #: src/reader.rs:4216
 msgid "Search again for more results"
-msgstr ""
+msgstr "Daha fazla sonuç için tekrar arayın"
 
 #: src/builtins/shared.rs:485
 msgid "Search for a specified string in a list"
@@ -1323,23 +1328,23 @@ msgstr "Search for a specified string in a list"
 
 #: src/builtins/bg.rs:32
 msgid "Send job %s '%ls' to background\n"
-msgstr ""
+msgstr "%s '%ls' işini arka plana gönder\n"
 
 #: src/builtins/shared.rs:474
 msgid "Send job to background"
-msgstr "Send job to background"
+msgstr "İşi arka plana gönder"
 
 #: src/builtins/shared.rs:497
 msgid "Send job to foreground"
-msgstr "Send job to foreground"
+msgstr "İşi ön plana gönder"
 
 #: src/builtins/shared.rs:483
 msgid "Set or get the commandline"
-msgstr "Set or get the commandline"
+msgstr "Komut satırını getir veya ayarla"
 
 #: src/builtins/shared.rs:515
 msgid "Set the terminal color"
-msgstr "Set the terminal color"
+msgstr "Uçbirim rengini ayarlar"
 
 #: src/builtins/shared.rs:512
 msgid "Show absolute path sans symlinks"
@@ -1347,27 +1352,27 @@ msgstr ""
 
 #: src/builtins/shared.rs:486
 msgid "Skip over remaining innermost loop"
-msgstr ""
+msgstr "Kalan en içteki döngüyü atla"
 
 #: src/builtins/status.rs:441
 msgid "Standard input"
-msgstr "Standard input"
+msgstr "Standart çıktı"
 
 #: src/parser.rs:664
 msgid "Standard input (line %d): "
-msgstr ""
+msgstr "Standart çıktı (satır %d): "
 
 #: src/parser.rs:662
 msgid "Startup (line %d): "
-msgstr ""
+msgstr "Başlangıç (satır %d): "
 
 #: src/builtins/jobs.rs:71
 msgid "State\tCommand\n"
-msgstr "State\tCommand\n"
+msgstr "Durum\tKomut\n"
 
 #: src/signal.rs:107
 msgid "stopped"
-msgstr "stopped"
+msgstr "durduruldu"
 
 #: src/builtins/shared.rs:513
 msgid "Stop the currently evaluated function"
@@ -1375,11 +1380,11 @@ msgstr "Stop the currently evaluated function"
 
 #: src/builtins/shared.rs:477
 msgid "Stop the innermost loop"
-msgstr "Stop the innermost loop"
+msgstr "En içteki döngüyü durdur"
 
 #: src/bin/fish_indent.rs:820
 msgid "%s, version %s\n"
-msgstr "%s, version %s\n"
+msgstr "%s, sürüm %s\n"
 
 #: src/parse_execution.rs:1162
 msgid "switch: Expected at most one argument, got %lu\n"
@@ -1387,7 +1392,7 @@ msgstr ""
 
 #: src/wutil/mod.rs:47
 msgid "symlink"
-msgstr ""
+msgstr "sembolik link"
 
 #: src/builtins/shared.rs:476
 msgid "Temporarily block delivery of events"
@@ -1395,19 +1400,20 @@ msgstr "Temporarily block delivery of events"
 
 #: src/env_dispatch.rs:666
 msgid "TERM environment variable not set."
-msgstr ""
+msgstr "TERM ortam değişkeni ayarlı değil."
 
 #: src/env_dispatch.rs:660
+#, fuzzy
 msgid "TERM environment variable set to"
-msgstr ""
+msgstr "TERM ortam değişkeni buna ayarlı:"
 
 #: src/builtins/shared.rs:468
 msgid "Test a condition"
-msgstr "Test a condition"
+msgstr "Bir durumu test et"
 
 #: src/path.rs:160
 msgid "The error was '%s'."
-msgstr "The error was '%s'."
+msgstr "Hata '%s'."
 
 #: src/parse_execution.rs:582
 msgid "The expanded command is a keyword."
@@ -1423,7 +1429,7 @@ msgstr ""
 
 #: src/proc.rs:1187
 msgid "There are still jobs active:\n"
-msgstr ""
+msgstr "Hala çalışan işler var:\n"
 
 #: src/builtins/status.rs:341
 msgid "This is a login shell\n"
@@ -1435,11 +1441,11 @@ msgstr "This is not a login shell\n"
 
 #: src/builtins/commandline.rs:250
 msgid "--tokens options are mutually exclusive"
-msgstr ""
+msgstr "--tokens seçenekleri beraber bulunamazlar"
 
 #: src/tinyexpr.rs:104
 msgid "Too few arguments"
-msgstr ""
+msgstr "Yetersiz argüman"
 
 #: src/expand.rs:973
 msgid "Too many active file descriptors"
@@ -1447,7 +1453,7 @@ msgstr ""
 
 #: src/tinyexpr.rs:105
 msgid "Too many arguments"
-msgstr ""
+msgstr "Çok fazla argüman"
 
 #: src/expand.rs:965
 msgid "Too much data emitted by command substitution so it was discarded"
@@ -1455,7 +1461,7 @@ msgstr ""
 
 #: src/builtins/shared.rs:469
 msgid "Translate a string"
-msgstr ""
+msgstr "Bir string'i çevir"
 
 #: src/builtins/shared.rs:620
 msgid "(Type 'help %ls' for related documentation)\n"
@@ -1463,7 +1469,7 @@ msgstr ""
 
 #: src/builtins/ulimit.rs:126
 msgid "ulimit: Permission denied when changing resource of type '%ls'\n"
-msgstr ""
+msgstr "ulimit: '%ls' türünden kaynağın türü değitirilirken erişim engellendi\n"
 
 #: src/env_universal_common.rs:520
 msgid "Unable to create temporary file '%ls': %s"
@@ -1483,11 +1489,11 @@ msgstr "Unable to locate the %ls directory."
 
 #: src/env_universal_common.rs:465
 msgid "Unable to open universal variable file '%s': %s"
-msgstr ""
+msgstr "Evrensel değişken dosyası '%s' açılamadı: %s"
 
 #: src/reader.rs:673
 msgid "Unable to read input file: %s"
-msgstr ""
+msgstr "Giriş dosyası okunamadı: %s"
 
 #: src/env_universal_common.rs:570
 msgid "Unable to rename file from '%ls' to '%ls': %s"
@@ -1499,15 +1505,15 @@ msgstr "Unable to write to universal variables file '%ls': %s"
 
 #: src/tokenizer.rs:175
 msgid "Unexpected '[' at this location"
-msgstr ""
+msgstr "Bu konumda beklenmedik '['"
 
 #: src/tokenizer.rs:154
 msgid "Unexpected end of string, expecting ')'"
-msgstr ""
+msgstr "Beklenmedik string sonu, ')' bekleniyordu"
 
 #: src/tokenizer.rs:160
 msgid "Unexpected end of string, incomplete escape sequence"
-msgstr ""
+msgstr "Beklenmedik string sonu, tamamlanmamış kaçış dizisi"
 
 #: src/tokenizer.rs:181
 msgid "Unexpected end of string, incomplete parameter expansion"
@@ -1515,31 +1521,31 @@ msgstr ""
 
 #: src/tokenizer.rs:151
 msgid "Unexpected end of string, quotes are not balanced"
-msgstr "Unexpected end of string, quotes are not balanced"
+msgstr "Beklenmedik string sonu, tırnak işaretleri dengesiz"
 
 #: src/tokenizer.rs:157
 msgid "Unexpected end of string, square brackets do not match"
-msgstr "Unexpected end of string, square brackets do not match"
+msgstr "Beklenmedik string sonu, köşeli parantezler uyuşmuyor"
 
 #: src/tokenizer.rs:178
 msgid "Unexpected '}' for unopened brace expansion"
-msgstr ""
+msgstr "Açılmamış süslü parantez için beklenmedik '}'"
 
 #: src/tokenizer.rs:172
 msgid "Unexpected ')' for unopened parenthesis"
-msgstr ""
+msgstr "Açılmamış parantez için beklenmedik ')'"
 
 #: src/tokenizer.rs:187
 msgid "Unexpected ')' found, expecting '}'"
-msgstr ""
+msgstr "Beklenmedik ')' bulundu, '}' bekleniyordu"
 
 #: src/tokenizer.rs:184
 msgid "Unexpected '}' found, expecting ')'"
-msgstr ""
+msgstr "Beklenmedik '}' bulundu, ')' bekleniyordu"
 
 #: src/tinyexpr.rs:107
 msgid "Unexpected token"
-msgstr ""
+msgstr "Beklenmedik token"
 
 #: src/env/var.rs:30
 msgid "unexported"
@@ -1547,30 +1553,30 @@ msgstr ""
 
 #: src/builtins/printf.rs:670
 msgid "Unicode character out of range: \\%c%0*x"
-msgstr "Unicode character out of range: \\%c%0*x"
+msgstr "Unicode karakteri aralığın dışında: \\%c%0*x"
 
 #: src/fish_test_helper.cpp:145
 msgid "Unknown"
-msgstr "Unknown"
+msgstr "Bilinmeyen"
 
 #: src/fish_test_helper.cpp:282
 msgid "Unknown command"
-msgstr ""
+msgstr "Bilinmeyen komut"
 
 #: src/fish_test_helper.cpp:282
 msgid "Unknown command:"
-msgstr ""
+msgstr "Bilinmeyen komut:"
 
 #: src/parse_execution.rs:348
 msgid "Unknown command. A component of '%ls' is not a directory."
-msgstr ""
+msgstr "Bilinmeyen komut. '%ls'in bir bileşeni bir dizin değil."
 
 msgid "Unknown command. A component of '%ls' is not a directory. Check your $PATH."
-msgstr ""
+msgstr "Bilinmeyen komut. '%ls'in bir bileşeni bir dizin değil. $PATH'inizi kontrol edin."
 
 #: src/parse_execution.rs:359
 msgid "Unknown command. '%ls' exists but is not an executable file."
-msgstr ""
+msgstr "Bilinmeyen komut. '%ls' var ancak çalıştırılabilir bir dosya değil."
 
 #: src/expand.rs:1003
 msgid "Unknown error while evaluating command substitution"
@@ -1578,19 +1584,19 @@ msgstr ""
 
 #: src/tinyexpr.rs:101
 msgid "Unknown function"
-msgstr ""
+msgstr "Bilinmeyen fonksiyon"
 
 #: src/exec.rs:1007
 msgid "Unknown function '%ls'"
-msgstr "Unknown function “%ls”"
+msgstr "Bilinmeyen fonksiyon '%ls'"
 
 #: src/reader.rs:1850
 msgid "Unknown key binding 0x%X"
-msgstr "Unknown key binding 0x%X"
+msgstr "Bilinmeyen tuş ataması 0x%X"
 
 #: src/builtins/ulimit.rs:42
 msgid "unlimited\n"
-msgstr ""
+msgstr "sınırsız\n"
 
 #: src/expand.rs:1000
 msgid "Unmatched wildcard"
@@ -1598,7 +1604,7 @@ msgstr ""
 
 #: src/proc.rs:1199
 msgid "Use 'disown PID' to remove jobs from the list without terminating them.\n"
-msgstr ""
+msgstr "İşleri sonlandırmadan listeden çıkarmak için `disown PID` kullanın.\n"
 
 #: src/env_dispatch.rs:523
 msgid "Using fallback terminal type"
@@ -1606,15 +1612,15 @@ msgstr ""
 
 #: src/complete.rs:63:static COMPLETE_VAR_DESC_VAL
 msgid "Variable: %ls"
-msgstr "Variable: %ls"
+msgstr "Değişken: %ls"
 
 #: src/builtins/shared.rs:525
 msgid "Wait for background processes completed"
-msgstr ""
+msgstr "Arka plan işlemlerin bitmesi bekleniyor"
 
 #: src/parser.rs:1156
 msgid " with arguments '%ls'"
-msgstr ""
+msgstr "'%ls' argümanları ile"
 
 #: src/builtins/type.rs:124
 msgid " with definition"
@@ -1622,7 +1628,7 @@ msgstr ""
 
 #: src/builtins/shared.rs:26:pub const BUILTIN_ERR_MISSING
 msgid "%ls: %ls: option requires an argument\n"
-msgstr ""
+msgstr "%ls: %ls: seçenek bir argüman gerektirir\n"
 
 msgid ""
 "fish: %ls: missing man page\n"
@@ -1636,39 +1642,39 @@ msgstr ""
 
 #: src/builtins/shared.rs:39:pub const BUILTIN_ERR_EXPUNEXP
 msgid "%ls: cannot both export and unexport\n"
-msgstr ""
+msgstr "%ls: export ve unexport beraber yapılamaz\n"
 
 #: src/builtins/shared.rs:42:pub const BUILTIN_ERR_PATHUNPATH
 msgid "%ls: cannot both path and unpath\n"
-msgstr ""
+msgstr "%ls: path ve unpath beraber yapılamaz\n"
 
 #: src/builtins/shared.rs:45:pub const BUILTIN_ERR_UNKNOWN
 msgid "%ls: %ls: unknown option\n"
-msgstr ""
+msgstr "%ls: %ls: bilinmeyen seçenek\n"
 
 #: src/builtins/shared.rs:48:pub const BUILTIN_ERR_BIND_MODE
 msgid "%ls: %ls: invalid mode name. See `help identifiers`\n"
-msgstr ""
+msgstr "%ls: %ls: geçersiz mod adı. `help identifiers` bakınız\n"
 
 #: src/builtins/shared.rs:57:pub const BUILTIN_ERR_MISSING_SUBCMD
 msgid "%ls: missing subcommand\n"
-msgstr ""
+msgstr "%ls: alt komut eksik\n"
 
 #: src/builtins/shared.rs:58:pub const BUILTIN_ERR_INVALID_SUBCMD
 msgid "%ls: %ls: invalid subcommand\n"
-msgstr ""
+msgstr "%ls: %ls: geçersiz alt komut\n"
 
 #: src/builtins/shared.rs:68:pub const BUILTIN_ERR_VARNAME
 msgid "%ls: %ls: invalid variable name. See `help identifiers`\n"
-msgstr ""
+msgstr "%ls: %ls: geçersiz değişken adı. `help identifiers` bakınız\n"
 
 #: src/builtins/shared.rs:71:pub const BUILTIN_ERR_COMBO
 msgid "%ls: invalid option combination\n"
-msgstr ""
+msgstr "%ls: geçersiz seçenek kombinasyonu\n"
 
 #: src/builtins/shared.rs:76:pub const FG_MSG
 msgid "Send job %d (%ls) to foreground\n"
-msgstr ""
+msgstr "İş %d (%ls) ön plana verildi\n"
 
 #: src/builtins/argparse.rs:12:const BUILTIN_ERR_INVALID_OPT_SPEC
 msgid "%ls: Invalid option spec '%ls' at char '%lc'\n"
@@ -1676,23 +1682,23 @@ msgstr ""
 
 #: src/builtins/set.rs:23:const MISMATCHED_ARGS
 msgid "%ls: given %d indexes but %d values\n"
-msgstr ""
+msgstr "%ls: %d indeks sağlandı ancak %d değer sağlandı.\n"
 
 #: src/builtins/set.rs:25
 msgid "%ls: successfully set universal '%ls'; but a global by that name shadows it\n"
-msgstr ""
+msgstr "%ls: evrensel '%ls' başarıyla atandı ancak aynı adda bir küreselin gölgesinde kalıyor\n"
 
 #: src/fds.rs:16:pub const PIPE_ERROR
 msgid "An error occurred while setting up pipe"
-msgstr "An error occurred while setting up pipe"
+msgstr "Pipe ayarlanırken bir sorun yaşandı"
 
 #: src/wchar_ext.rs:248
 msgid "search: "
-msgstr "search: "
+msgstr "ara: "
 
 #: src/parse_constants.rs:452
 msgid "The function '%ls' calls itself immediately, which would result in an infinite loop."
-msgstr "The function “%ls” calls itself immediately, which would result in an infinite loop."
+msgstr "Fonksiyon “%ls” doğrudan kendini çağırıyor, ki bu da sonsuz döngüye neden olur."
 
 #: src/parse_constants.rs:456
 msgid "The call stack limit has been exceeded. Do you have an accidental infinite loop?"
@@ -1700,7 +1706,7 @@ msgstr ""
 
 #: src/parse_constants.rs:459:pub const UNKNOWN_BUILTIN_ERR_MSG
 msgid "Unknown builtin '%ls'"
-msgstr "Unknown builtin “%ls”"
+msgstr "Bilinmeyen dahili “%ls”"
 
 #: src/parse_constants.rs:462:pub const FAILED_EXPANSION_VARIABLE_NAME_ERR_MSG
 msgid "Unable to expand variable name '%ls'"
@@ -1712,51 +1718,51 @@ msgstr "Illegal file descriptor in redirection “%ls”"
 
 #: src/parse_constants.rs:468:pub const WILDCARD_ERR_MSG
 msgid "No matches for wildcard '%ls'. See `help wildcards-globbing`."
-msgstr ""
+msgstr "Wildcard '%ls' için eşleşme yok. `help wildcards-globbing` bakınız."
 
 #: src/parse_constants.rs:471:pub const INVALID_BREAK_ERR_MSG
 msgid "'break' while not inside of loop"
-msgstr ""
+msgstr "bir döngüde değilken 'break'"
 
 #: src/parse_constants.rs:474:pub const INVALID_CONTINUE_ERR_MSG
 msgid "'continue' while not inside of loop"
-msgstr ""
+msgstr "bir döngüde değilken 'continue'"
 
 #: src/parse_constants.rs:477:pub const INVALID_PIPELINE_CMD_ERR_MSG
 msgid "The '%ls' command can not be used in a pipeline"
-msgstr "The “%ls” command can not be used in a pipeline"
+msgstr "\"%ls\" komutu bir pipeline içinde kullanılamaz"
 
 #: src/parse_constants.rs:493:pub const ERROR_NOT_STATUS
 msgid "$? is not the exit status. In fish, please use $status."
-msgstr ""
+msgstr "$? çıkış durumu değildir. fish'de, lütfen $status kullanın."
 
 #: src/parse_constants.rs:496:pub const ERROR_NOT_PID
 msgid "$$ is not the pid. In fish, please use $fish_pid."
-msgstr ""
+msgstr "$$ pid değildir. fish'de, lütfen $fish_pid kullanın."
 
 #: src/parse_constants.rs:499:pub const ERROR_NOT_ARGV_COUNT
 msgid "$# is not supported. In fish, please use 'count $argv'."
-msgstr ""
+msgstr "$# desteklenmiyor. fish'de, lütfen 'count $argv' kullanın."
 
 #: src/parse_constants.rs:502:pub const ERROR_NOT_ARGV_AT
 msgid "$@ is not supported. In fish, please use $argv."
-msgstr ""
+msgstr "$@ desteklenmiyor. fish'de, lütfen $argv kullanın."
 
 #: src/parse_constants.rs:505:pub const ERROR_NOT_ARGV_STAR
 msgid "$* is not supported. In fish, please use $argv."
-msgstr ""
+msgstr "$* desteklenmiyor. fish'de, lütfen $argv kullanın."
 
 #: src/parse_constants.rs:508:pub const ERROR_NO_VAR_NAME
 msgid "Expected a variable name after this $."
-msgstr ""
+msgstr "Bu $ işaretinin ardından değişken adı beklendi."
 
 #: src/parse_constants.rs:512
 msgid "Unsupported use of '='. In fish, please use 'set %ls %ls'."
-msgstr ""
+msgstr "'='in desteklenmeyen kullanımı. fish'de, lütfen 'set %ls %ls' kullanın. "
 
 #: src/parse_constants.rs:516
 msgid "'time' is not supported for background jobs. Consider using 'command time'."
-msgstr ""
+msgstr "'time' arka plan işleri için desteklenmiyor. Yerine 'command time' kullanabilirsiniz."
 
 #: src/parse_constants.rs:520
 msgid "'{ ... }' is not supported for grouping commands. Please use 'begin; ...; end'"
@@ -1772,42 +1778,42 @@ msgstr "Backgrounded commands can not be used as conditionals"
 
 #: src/parse_util.rs:1821:const END_ARG_ERR_MSG
 msgid "'end' does not take arguments. Did you forget a ';'?"
-msgstr ""
+msgstr "'end' argüman almaz. Bir ';' mü unuttunuz?"
 
 #: src/parse_util.rs:1825
 msgid "The 'time' command may only be at the beginning of a pipeline"
-msgstr ""
+msgstr "'time' komutu yalnızca bir pipeline'ın başında bulunabilir"
 
 #: src/print_help.rs:7:const HELP_ERR
 msgid "Could not show help message"
-msgstr ""
+msgstr "Yardım mesajı gösterilemedi"
 
 #: src/env/var.rs:56
 msgid "/usr/local/share/doc/fish"
-msgstr ""
+msgstr "/usr/local/share/doc/fish"
 
 #: src/env/var.rs:56
 msgid "/usr/local/share/"
-msgstr ""
+msgstr "/usr/local/share/"
 
 msgid "/usr/local/share/etc/"
-msgstr ""
+msgstr "/usr/local/share/etc/"
 
 #: src/builtins/tests/string_tests.rs:202
 msgid "/usr/local/bin/"
-msgstr ""
+msgstr "/usr/local/bin/"
 
 #: share/functions/__fish_anyeditor.fish:2
 msgid "Please set VISUAL or EDITOR to your preferred editor."
-msgstr ""
+msgstr "Lütfen VISUAL veya EDITOR değişkenlerini tercih ettiğiniz düzenleyiciye ayarlayın."
 
 #: share/functions/__fish_md5.fish:1 share/functions/__fish_md5.fish:2
 msgid "%s: Too many arguments %s\\n"
-msgstr "%s: Too many arguments %s\\n"
+msgstr "%s: Çok fazla argüman %s\\n"
 
 #: share/functions/__fish_print_help.fish:1
 msgid "Cannot format help; no parser found"
-msgstr ""
+msgstr "Yardım biçimlendirilemiyor; parser bulunamadı"
 
 #: share/functions/_validate_int.fish:1
 msgid "%s: Value '%s' for flag '%s' is not an integer\\n"
@@ -1823,27 +1829,27 @@ msgstr ""
 
 #: share/functions/alias.fish:1
 msgid "%s: name cannot be empty\\n"
-msgstr ""
+msgstr "%s: ad boş olamaz\\n"
 
 #: share/functions/alias.fish:2
 msgid "%s: body cannot be empty\\n"
-msgstr ""
+msgstr "%s: gövde boş olamaz\\n"
 
 #: share/functions/cd.fish:1
 msgid "Too many args for cd command"
-msgstr ""
+msgstr "cd komutu için çok fazla argüman"
 
 #: share/functions/cdh.fish:1
 msgid "cdh: Expected zero or one arguments"
-msgstr "cdh: Expected zero or one arguments"
+msgstr "cdh: Sıfır veya bir argüman beklendi"
 
 #: share/functions/cdh.fish:2
 msgid "No previous directories to select. You have to cd at least once."
-msgstr ""
+msgstr "Seçebilecek geçmiş dizin yok. En az bir kere cd kullanmalısınız."
 
 #: share/functions/cdh.fish:3
 msgid "This should not happen. Have you changed the cd function?"
-msgstr ""
+msgstr "Bu yaşanmamalı. cd fonksiyonunu mu değiştirdiniz?"
 
 #: share/functions/cdh.fish:4
 msgid "There are %s unique dirs in your history but I can only handle %s"
@@ -1851,7 +1857,7 @@ msgstr ""
 
 #: share/functions/cdh.fish:5
 msgid "Select directory by letter or number: "
-msgstr ""
+msgstr "Harf veya sayıya göre dizin seçin: "
 
 #: share/functions/cdh.fish:6
 msgid "Error: expected a number between 1 and %d or letter in that range, got \"%s\""
@@ -1859,55 +1865,57 @@ msgstr ""
 
 #: share/functions/edit_command_buffer.fish:1
 msgid "Ignoring the output of your editor since its exit status was non-zero"
-msgstr ""
+msgstr "Düzenleyicinizin çıkış durumu sıfır olmadığından çıktısı görmezden geliniyor."
 
 #: share/functions/edit_command_buffer.fish:2
 msgid "or the file was empty"
-msgstr ""
+msgstr "veya dosya boştu"
 
 #: share/functions/fish_add_path.fish:1
 msgid "Skipping non-existent path: %s\\n"
-msgstr ""
+msgstr "Var olmayan yol atlanıyor: %s\\n"
 
 #: share/functions/fish_command_not_found.fish:1
 msgid "fish: Unknown command: %s\\n"
-msgstr ""
+msgstr "fish: Bilinmeyen komut: %s\\n"
 
 #: share/functions/fish_delta.fish:1
 msgid "%sNew%s: %s\\n"
-msgstr ""
+msgstr "%sYeni%s: %s\\n"
 
 #: share/functions/fish_delta.fish:2 share/functions/fish_delta.fish:5
 msgid "%sChanged%s: %s\\n"
-msgstr ""
+msgstr "%sDeğişti%s: %s\\n"
 
 #: share/functions/fish_delta.fish:3
+#, fuzzy
 msgid "%sUnmodified%s: %s\\n"
-msgstr ""
+msgstr "%sDeğişmedi%s: %s\\n"
 
 #: share/functions/fish_delta.fish:4
+#, fuzzy
 msgid "%sPossibly changed%s: %s\\n"
-msgstr ""
+msgstr "%sBelki değişti%s: %s\\n"
 
 #: share/functions/fish_greeting.fish:1
 msgid "Welcome to fish, the friendly interactive shell"
-msgstr "Welcome to fish, the friendly interactive shell"
+msgstr "Dost canlısı etkileşimli kabuk fish'e hoş geldiniz"
 
 #: share/functions/fish_greeting.fish:2
 msgid "Type %shelp%s for instructions on how to use fish"
-msgstr "Type %shelp%s for instructions on how to use fish"
+msgstr "Fish'i kullanma yönergeleri için %shelp%s yazınız"
 
 #: share/functions/fish_greeting.fish:3
 msgid "fish is running in private mode, history will not be persisted."
-msgstr ""
+msgstr "fish gizli modda çalışıyor, geçmiş kalıcı olmayacak."
 
 #: share/functions/fish_job_summary.fish:1
 msgid "fish: Job %s, '%s' has stopped\\n"
-msgstr ""
+msgstr "fish: İş %s, '%s' durmuştur\\n"
 
 #: share/functions/fish_job_summary.fish:2
 msgid "fish: Job %s, '%s' has ended\\n"
-msgstr ""
+msgstr "fish: İş %s, '%s' bitmiştir\\n"
 
 #: share/functions/fish_job_summary.fish:3
 msgid "fish: Process %s, '%s' from job %s, '%s' terminated by signal %s (%s)\\n"
@@ -1919,57 +1927,59 @@ msgstr ""
 
 #: share/functions/fish_opt.fish:1
 msgid "%s: The --short flag is required and must be a single character\\n"
-msgstr ""
+msgstr "%s: --short seçeneği gereklidir ve tek bir karakter olmalıdır\\n"
 
 #: share/functions/fish_update_completions.fish:1
 msgid "python executable not found"
-msgstr ""
+msgstr "python çalıştırılabiliri bulunamadı"
 
 #: share/functions/funced.fish:1 share/functions/funcsave.fish:1 share/functions/open.fish:1
 #: share/functions/realpath.fish:2
 msgid "%ls: Expected at least %d args, got only %d\\n"
-msgstr ""
+msgstr "%ls: En az %d argüman beklendi, bulunan ise yalnızca %d\\n"
 
 #: share/functions/funced.fish:3
 msgid "Editing failed or was cancelled"
-msgstr "Editing failed or was cancelled"
+msgstr "Düzenleme başarısızdı veya iptal edildi"
 
 #: share/functions/funced.fish:4
 msgid "Editor exited but the function was not modified"
-msgstr ""
+msgstr "Düzenleyiciden ayrılındı ancak fonksiyon düzenlenmedi"
 
 #: share/functions/funced.fish:5
 msgid "If the editor is still running, check if it waits for completion, maybe a '--wait' option?"
 msgstr ""
+"Eğer düzenleyici hala çalışıyorsa tamamlanmayı bekleyip beklemediğini kontrol edin, belki bir '--wait' "
+"seçeneği?"
 
 #: share/functions/funced.fish:6
 msgid "Edit the file again? [Y/n]"
-msgstr ""
+msgstr "Dosyayı tekrar düzenle? [Y/n]"
 
 #: share/functions/funced.fish:7
 msgid "Cancelled function editing"
-msgstr "Cancelled function editing"
+msgstr "Fonksiyon düzenleme iptal edildi"
 
 #: share/functions/funced.fish:8
 msgid ""
 "Warning: the file containing this function has not been saved. Changes may be lost when fish is closed."
-msgstr ""
+msgstr "Uyarı: fonksiyonu içeren dosya kaydedilmedi. fish kapatıldığında değişiklikler kaybedilebilir."
 
 #: share/functions/funced.fish:9
 msgid "Save function to %s? [Y/n]"
-msgstr ""
+msgstr "Fonksiyonu %s konumuna kaydet? [Y/n]"
 
 #: share/functions/funced.fish:10 share/functions/funced.fish:12
 msgid "Function saved to %s"
-msgstr ""
+msgstr "Fonksiyon %s konumuna kaydedildi"
 
 #: share/functions/funced.fish:11
 msgid "Saving to original location failed; saving to user configuration instead."
-msgstr ""
+msgstr "Asıl konuma kaydedilemedi, onun yerine kullanıcı yapılandırmasına kaydediliyor."
 
 #: share/functions/funced.fish:13
 msgid "Saving to user configuration failed. Changes may be lost when fish is closed."
-msgstr ""
+msgstr "Kullanıcı yapılandırmasına kaydedilemedi. fish kapatıldığında değişiklikler kaybedilebilir."
 
 #: share/functions/funced.fish:14
 msgid "Run funcsave %s to save this function to the configuration directory."
@@ -1977,67 +1987,68 @@ msgstr ""
 
 #: share/functions/funcsave.fish:2
 msgid "%s: Could not create configuration directory '%s'\\n"
-msgstr ""
+msgstr "%s: Yapılandırma dizini oluşturulamadı '%s'\\n"
 
 #: share/functions/funcsave.fish:3
 msgid "%s: wrote %s\\n"
-msgstr ""
+msgstr "%s: %s yazıldı\\n"
 
 #: share/functions/funcsave.fish:4
 msgid "%s: removed %s\\n"
-msgstr ""
+msgstr "%s: %s kaldırıldı\\n"
 
 #: share/functions/funcsave.fish:5
 msgid "%s: Unknown function '%s'\\n"
-msgstr "%s: Unknown function “%s”\\n"
+msgstr "%s: Bilinmeyen fonksiyon “%s”\\n"
 
 #: share/functions/help.fish:1
 msgid "%s: Could not find a web browser.\\n"
-msgstr "%s: Could not find a web browser.\\n"
+msgstr "%s: İnternet tarayıcısı bulunamadı.\\n"
 
 #: share/functions/help.fish:3
 msgid "%s: no fish help topic '%s', try 'man %s'\\n"
-msgstr ""
+msgstr "%s: '%s' adlı fish yardım konusu yok, 'man %s' deneyin\\n"
 
 #: share/functions/help.fish:4
 msgid "help: Help is being displayed in your default browser.\\n"
-msgstr "help: Help is being displayed in your default browser.\\n"
+msgstr "help: Yardım metni varsayılan tarayıcınızda gösteriliyor.\\n"
 
 #: share/functions/help.fish:5
 msgid "help: Help is being displayed in %s.\\n"
-msgstr "help: Help is being displayed in %s.\\n"
+msgstr "help: Yardım metniniz şunun ile gösteriliyor: %s.\\n"
 
 #: share/functions/history.fish:1
 msgid "%ls: %ls: subcommand takes no options\\n"
-msgstr ""
+msgstr "%ls: %ls: alt komutu herhangi bir seçenek almıyor\\n"
 
 #: share/functions/history.fish:2
 msgid "%ls: %ls: expected %d arguments; got %d\\n"
-msgstr ""
+msgstr "%ls: %ls: %d argüman beklendi, %d bulundu\\n"
 
 #: share/functions/history.fish:3 share/functions/history.fish:4
 msgid "Ignoring invalid history entry ID \"%s\"\\n"
-msgstr ""
+msgstr "Geçersiz geçmiş giriş numarası \"%s\" görmezden geliniyor\\n"
 
 #: share/functions/history.fish:5
 msgid "If you enter 'yes' your entire interactive command history will be erased\\n"
-msgstr ""
+msgstr "Eğer 'yes' yazarsanız tüm interaktif komut geçmişiniz silinecektir\\n"
 
 #: share/functions/history.fish:6
 msgid "Command history cleared!\\n"
-msgstr ""
+msgstr "Komut geçmişi temizlendi!\\n"
 
 #: share/functions/history.fish:7
+#, fuzzy
 msgid "You did not say 'yes' so I will not clear your command history\\n"
-msgstr ""
+msgstr "'yes' demediğiniz için komut geçmişini silmeyeceğim\\n"
 
 #: share/functions/history.fish:8
 msgid "Command history for session cleared!\\n"
-msgstr ""
+msgstr "Oturum için olan komut geçmişi temizlendi!\\n"
 
 #: share/functions/isatty.fish:1
 msgid "%s: Too many arguments"
-msgstr ""
+msgstr "%s: Çok fazla argüman"
 
 #: share/functions/nextd.fish:1 share/functions/prevd.fish:1
 msgid "%s: The number of positions to skip must be a non-negative integer\\n"
@@ -2045,11 +2056,11 @@ msgstr "%s: The number of positions to skip must be a non-negative integer\\n"
 
 #: share/functions/open.fish:2
 msgid "No open utility found. Try installing \"xdg-open\" or \"xdg-utils\"."
-msgstr ""
+msgstr "Açma aracı bulunamadı. \"xdg-open\" veya \"xdg-utils\" kurmayı deneyin."
 
 #: share/functions/popd.fish:1
 msgid "%s: Directory stack is empty…\\n"
-msgstr ""
+msgstr "%s: Dizin yığını boş...\\n"
 
 #: share/functions/psub.fish:1
 msgid "%s: Not inside of command substitution"
@@ -2057,11 +2068,11 @@ msgstr "%s: Not inside of command substitution"
 
 #: share/functions/realpath.fish:1
 msgid "%s: These flags are not allowed by fish realpath: '%s'"
-msgstr ""
+msgstr "%s: Bu seçenekler fish realpath tarafından desteklenmiyor: '%s'"
 
 #: share/functions/seq.fish:1
 msgid "%s: Expected 1, 2 or 3 arguments, got %d\\n"
-msgstr "%s: Expected 1, 2 or 3 arguments, got %d\\n"
+msgstr "%s: 1, 2 veya 3 argüman beklendi, bulunan ise %d\\n"
 
 #: share/functions/seq.fish:2
 msgid "%s: '%s' is not a number\\n"
@@ -2073,15 +2084,15 @@ msgstr "%s: Too many arguments\\n"
 
 #: share/functions/setenv.fish:2
 msgid "%s: Variable name must contain alphanumeric characters\\n"
-msgstr ""
+msgstr "%s: Değişken adı alfanümerik karakterler içermelidir\\n"
 
 #: share/functions/umask.fish:1 share/functions/umask.fish:2
 msgid "%s: Invalid mask '%s'\\n"
-msgstr "%s: Invalid mask “%s”\\n"
+msgstr "%s: Geçersiz maske“%s”\\n"
 
 #: share/functions/vared.fish:1
 msgid "%s: Unknown option %s\\n"
-msgstr "%s: Unknown option %s\\n"
+msgstr "%s: Bilinmeyen seçenek %s\\n"
 
 #: share/functions/vared.fish:2
 msgid "%s: %s is an array variable. Use %svared%s %s[n]%s to edit the n:th element of %s\\n"
@@ -2093,67 +2104,67 @@ msgstr "%s: Expected exactly one argument, got %s.\\n\\nSynopsis:\\n\\t%svared%s
 
 #: share/completions/7z.fish:1
 msgid "Show information about supported formats"
-msgstr ""
+msgstr "Desteklenen biçimler hakkında bilgi göster"
 
 #: share/completions/7z.fish:2
 msgid "Extract with full paths"
-msgstr ""
+msgstr "Tam yol ile çıkar"
 
 #: share/completions/7z.fish:3
 msgid "Include archives"
-msgstr ""
+msgstr "Arşivleri dahil et"
 
 #: share/completions/7z.fish:4
 msgid "Disable archive_name field"
-msgstr ""
+msgstr "archive_name alanını devre dışı bırak"
 
 #: share/completions/7z.fish:5
 msgid "Overwrite mode"
-msgstr ""
+msgstr "Üstüne yazma modu"
 
 #: share/completions/7z.fish:6
 msgid "Exclude archives"
-msgstr ""
+msgstr "Arşivleri dahil etme"
 
 #: share/completions/7z.fish:7
 msgid "Set output log level"
-msgstr ""
+msgstr "Çıktı log düzeyini ayarla"
 
 #: share/completions/7z.fish:8
 msgid "Disable progress indicator"
-msgstr ""
+msgstr "İlerleme göstergesini devre dışı bırak"
 
 #: share/completions/7z.fish:9
 msgid "Set output stream"
-msgstr ""
+msgstr "Çıkış akışını ayarla"
 
 #: share/completions/7z.fish:10
 msgid "Show execution time statistics"
-msgstr ""
+msgstr "Çalışma süresi istatistiklerini göster"
 
 #: share/completions/7z.fish:11
 msgid "Include filenames"
-msgstr ""
+msgstr "Dosya adlarını dahil et"
 
 #: share/completions/7z.fish:12
 msgid "Set compression method"
-msgstr ""
+msgstr "Sıkıştırılma yöntemini ayarla"
 
 #: share/completions/7z.fish:13
 msgid "Set output directory"
-msgstr ""
+msgstr "Çıkış dizinini ayarla"
 
 #: share/completions/7z.fish:14
 msgid "Set password"
-msgstr ""
+msgstr "Parola ayarla"
 
 #: share/completions/7z.fish:15
 msgid "Recurse subdirectories"
-msgstr ""
+msgstr "Alt dizinler için yinele"
 
 #: share/completions/7z.fish:16
 msgid "Set archive name mode"
-msgstr ""
+msgstr "Arşiv adı modunu ayarla"
 
 #: share/completions/7z.fish:17
 msgid "Set charset for console I/O"
@@ -2169,19 +2180,19 @@ msgstr ""
 
 #: share/completions/7z.fish:20
 msgid "Delete files after compression"
-msgstr ""
+msgstr "Sıkıştırmadan sonra dosyaları sil"
 
 #: share/completions/7z.fish:21
 msgid "Send archive by email"
-msgstr ""
+msgstr "Arşivi email aracılığıyla gönder"
 
 #: share/completions/7z.fish:22
 msgid "Create SFX archive"
-msgstr ""
+msgstr "SFX arşivi oluştur"
 
 #: share/completions/7z.fish:23
 msgid "Read data from stdin"
-msgstr ""
+msgstr "stdin'den veriyi oku"
 
 #: share/completions/7z.fish:24
 msgid "Set large pages mode"
@@ -2189,7 +2200,7 @@ msgstr ""
 
 #: share/completions/7z.fish:25
 msgid "Show technical information"
-msgstr ""
+msgstr "Teknik bilgi göster"
 
 #: share/completions/7z.fish:26
 msgid "Store NT security information"
@@ -2205,11 +2216,11 @@ msgstr ""
 
 #: share/completions/7z.fish:29
 msgid "Store symbolic links"
-msgstr ""
+msgstr "Sembolik linkleri tut"
 
 #: share/completions/7z.fish:30
 msgid "Write data to stdout"
-msgstr ""
+msgstr "Veriyi stdout'a yaz"
 
 #: share/completions/7z.fish:31
 msgid "Disable wildcard matching"
@@ -2245,11 +2256,11 @@ msgstr ""
 
 #: share/completions/7z.fish:39
 msgid "Type of archive"
-msgstr ""
+msgstr "Arşiv türü"
 
 #: share/completions/7z.fish:40
 msgid "Update options"
-msgstr ""
+msgstr "Güncelleme seçenekleri"
 
 #: share/completions/7z.fish:41
 msgid "Create volumes"
@@ -2322,7 +2333,7 @@ msgstr ""
 
 #: share/completions/abook.fish:2 share/completions/grub-install.fish:32
 msgid "Show usage"
-msgstr ""
+msgstr "Kullanımı göster"
 
 #: share/completions/abook.fish:3
 msgid "Use an alternative configuration file"
@@ -2493,8 +2504,9 @@ msgid "Don't print a filename heading above file's results"
 msgstr ""
 
 #: share/completions/ack.fish:30
+#, fuzzy
 msgid "Print a break between results"
-msgstr ""
+msgstr "Sonuçlar arasında satır sonu yazdır"
 
 #: share/completions/ack.fish:31
 msgid "Don't print a break between results"
@@ -2510,7 +2522,7 @@ msgstr ""
 
 #: share/completions/ack.fish:34
 msgid "Highlight the matching text"
-msgstr ""
+msgstr "Eşleşen metni vurgula"
 
 #: share/completions/ack.fish:35
 msgid "Don't highlight the matching text"
@@ -2522,11 +2534,11 @@ msgstr ""
 
 #: share/completions/ack.fish:37
 msgid "Set the color for matches"
-msgstr ""
+msgstr "Eşleşmelerin rengini ayarla"
 
 #: share/completions/ack.fish:38
 msgid "Set the color for line numbers"
-msgstr ""
+msgstr "Satır numaralarının rengini ayarla"
 
 #: share/completions/ack.fish:39
 msgid "Flush output immediately"
@@ -2534,7 +2546,7 @@ msgstr ""
 
 #: share/completions/ack.fish:40
 msgid "Only print the files selected"
-msgstr ""
+msgstr "Yalnızca seçili dosyaları yazdır"
 
 #: share/completions/ack.fish:41
 msgid "Only select files matching pattern"
@@ -2643,11 +2655,11 @@ msgstr ""
 
 #: share/completions/ack.fish:67
 msgid "Shows man page"
-msgstr ""
+msgstr "man sayfasını göster"
 
 #: share/completions/ack.fish:68
 msgid "Displays version and copyright"
-msgstr ""
+msgstr "Sürüm ve telif hakkını gösterir"
 
 #: share/completions/ack.fish:69
 msgid "Bill the Cat"
@@ -2659,51 +2671,51 @@ msgstr ""
 
 #: share/completions/acpi.fish:1
 msgid "Show battery information"
-msgstr ""
+msgstr "Batarya bilgisini göster"
 
 #: share/completions/acpi.fish:2
 msgid "Suppress battery information"
-msgstr ""
+msgstr "Batarya bilgisini gizle"
 
 #: share/completions/acpi.fish:3
 msgid "Show thermal information"
-msgstr ""
+msgstr "Sıcaklık bilgisini göster"
 
 #: share/completions/acpi.fish:4
 msgid "Suppress thermal information"
-msgstr ""
+msgstr "Sıcaklık bilgisini gizle"
 
 #: share/completions/acpi.fish:5
 msgid "Show ac adapter information"
-msgstr ""
+msgstr "ac adaptör bilgisini göster"
 
 #: share/completions/acpi.fish:6
 msgid "Suppress ac-adapter information"
-msgstr ""
+msgstr "ac adaptör bilgisini gizle"
 
 #: share/completions/acpi.fish:7
 msgid "Show every device, overrides above options"
-msgstr ""
+msgstr "Tüm aygıtları göster, üstteki seçenekleri görmezden gelir"
 
 #: share/completions/acpi.fish:8
 msgid "Show non-operational devices"
-msgstr ""
+msgstr "Çalışmayan aygıtları göster"
 
 #: share/completions/acpi.fish:9
 msgid "Hide non-operational devices"
-msgstr ""
+msgstr "Çalışmayan aygıtları gizle"
 
 #: share/completions/acpi.fish:10
 msgid "Use celsius as the temperature unit"
-msgstr ""
+msgstr "Sıcaklık birimi olarak santigrat kullan"
 
 #: share/completions/acpi.fish:11
 msgid "Use fahrenheit as the temperature unit"
-msgstr ""
+msgstr "Sıcaklık birimi olarak fahrenayt kullan"
 
 #: share/completions/acpi.fish:12
 msgid "Use kelvin as the temperature unit"
-msgstr ""
+msgstr "Sıcaklık birimi olarak kelvin kullan"
 
 #: share/completions/acpi.fish:13
 msgid "<dir> path to ACPI info (/proc/acpi)"
@@ -2762,25 +2774,25 @@ msgstr ""
 #: share/completions/xprop.fish:1 share/completions/xsel.fish:16 share/completions/yum.fish:11
 #: share/completions/zcat.fish:1 share/completions/zip.fish:29 share/functions/__fish_complete_gpg.fish:116
 msgid "Display help and exit"
-msgstr "Display help and exit"
+msgstr "Yardımı göster ve çık"
 
 #: share/completions/acpi.fish:15 share/completions/ln.fish:16 share/completions/m4.fish:2
 #: share/completions/md5sum.fish:10 share/completions/mtr.fish:2 share/completions/readlink.fish:8
 #: share/completions/sylpheed.fish:4 share/completions/watch.fish:12 share/completions/xgettext.fish:39
 msgid "Output version information and exit"
-msgstr ""
+msgstr "Sürüm bilgisini göster ve çık"
 
 #: share/completions/adb.fish:1
 msgid "Test if adb has yet to be given the subcommand"
-msgstr "Test if adb has yet to be given the subcommand"
+msgstr ""
 
 #: share/completions/adb.fish:2
 msgid "Run adb devices and parse output"
-msgstr "Run adb devices and parse output"
+msgstr "adb devices çalıştır ve çıktısını çözümle"
 
 #: share/completions/adb.fish:3
 msgid "Get list of devices connected via TCP/IP"
-msgstr ""
+msgstr "TCP/IP ile bağlı aygıtların listesini al"
 
 #: share/completions/adb.fish:4
 msgid "Runs adb with any -s parameters already given on the command line"
@@ -2788,15 +2800,15 @@ msgstr "Runs adb with any -s parameters already given on the command line"
 
 #: share/completions/adb.fish:5
 msgid "Listen on all network interfaces"
-msgstr ""
+msgstr "Tüm ağ arayüzlerinde dinle"
 
 #: share/completions/adb.fish:6
 msgid "Use first USB device"
-msgstr ""
+msgstr "İlk USB aygıtını kullan"
 
 #: share/completions/adb.fish:7
 msgid "Use first TCP/IP device"
-msgstr ""
+msgstr "İlk TCP/IP aygıtını kullan"
 
 #: share/completions/adb.fish:8
 msgid "Use device with given serial"
@@ -2808,11 +2820,11 @@ msgstr ""
 
 #: share/completions/adb.fish:10
 msgid "Name of adb server host"
-msgstr ""
+msgstr "adb sunucusunun adı"
 
 #: share/completions/adb.fish:11
 msgid "Port of adb server"
-msgstr ""
+msgstr "adb sunucusunun portu"
 
 #: share/completions/adb.fish:12
 msgid "Listen on given socket for adb server"
@@ -2820,47 +2832,47 @@ msgstr ""
 
 #: share/completions/adb.fish:13
 msgid "Connect to device"
-msgstr ""
+msgstr "Aygıta bağlan"
 
 #: share/completions/adb.fish:14
 msgid "Disconnect from device"
-msgstr ""
+msgstr "Aygıttan bağlantıyı kes"
 
 #: share/completions/adb.fish:15
 msgid "List all connected devices"
-msgstr ""
+msgstr "Bağlı tüm aygıtları listele"
 
 #: share/completions/adb.fish:16
 msgid "Copy file to device"
-msgstr ""
+msgstr "Dosyayı aygıta kopyala"
 
 #: share/completions/adb.fish:17
 msgid "Copy file from device"
-msgstr ""
+msgstr "Dosyayı aygıttan kopyala"
 
 #: share/completions/adb.fish:18
 msgid "Copy host->device only if changed"
-msgstr ""
+msgstr "Yalnız değişmişse sunucudan aygıta kopyala"
 
 #: share/completions/adb.fish:19
 msgid "Run remote shell [command]"
-msgstr ""
+msgstr "Uzak kabuk [komutu] çalıştır"
 
 #: share/completions/adb.fish:20
 msgid "Run emulator console command"
-msgstr ""
+msgstr "Emulatör konsol komutu çalıştır"
 
 #: share/completions/adb.fish:21
 msgid "View device log"
-msgstr ""
+msgstr "Aygıt logunu göster"
 
 #: share/completions/adb.fish:22 share/completions/dnf.fish:44
 msgid "Install package"
-msgstr ""
+msgstr "Paket kur"
 
 #: share/completions/adb.fish:23
 msgid "Uninstall package"
-msgstr ""
+msgstr "Paket kaldır"
 
 #: share/completions/adb.fish:24
 msgid "List PIDs of processes hosting a JDWP transport"
@@ -2868,39 +2880,39 @@ msgstr ""
 
 #: share/completions/adb.fish:25
 msgid "Port forwarding"
-msgstr ""
+msgstr "Port yönlendirme"
 
 #: share/completions/adb.fish:26
 msgid "Return bugreport information"
-msgstr ""
+msgstr "bugreport bilgisini göster"
 
 #: share/completions/adb.fish:27
 msgid "Perform device backup"
-msgstr ""
+msgstr "Aygıt yedeği oluştur"
 
 #: share/completions/adb.fish:28
 msgid "Restore device from backup"
-msgstr ""
+msgstr "Aygıtı yedekten geri getir"
 
 #: share/completions/adb.fish:29
 msgid "Show adb version"
-msgstr ""
+msgstr "adb sürümünü göster"
 
 #: share/completions/adb.fish:30
 msgid "Show adb help"
-msgstr ""
+msgstr "adb yardım metnini göster"
 
 #: share/completions/adb.fish:31
 msgid "Block until device is online"
-msgstr ""
+msgstr "Aygıt çevrim içi olana kadar bekle"
 
 #: share/completions/adb.fish:32
 msgid "Ensure that there is a server running"
-msgstr ""
+msgstr "Çalışan bir sunucunun olduğuna emin ol"
 
 #: share/completions/adb.fish:33
 msgid "Kill the server if it is running"
-msgstr ""
+msgstr "Eğer çalışıyorsa sunucuyu durdur"
 
 #: share/completions/adb.fish:34
 msgid "Remounts the /system partition on the device read-write"
@@ -101567,7 +101579,7 @@ msgstr ""
 
 #: share/functions/suspend.fish:1
 msgid "Suspend the current shell."
-msgstr ""
+msgstr "Mevcut kabuğu askıya al."
 
 #: share/functions/trap.fish:1
 msgid "Perform an action when the shell receives a signal"
@@ -101583,7 +101595,7 @@ msgstr ""
 
 #: share/functions/vared.fish:1
 msgid "Edit variable value"
-msgstr "Edit variable value"
+msgstr "Değişken değerini düzenle"
 
 #~ msgid "%ls: "
 #~ msgstr "%ls: "
